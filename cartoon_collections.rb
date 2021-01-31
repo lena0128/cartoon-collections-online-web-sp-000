@@ -9,7 +9,7 @@ def summon_captain_planet(planeteer_calls)
   new_calls = []
   planeteer_calls.collect { |call|
     new.calls << call[0].upcase.push("!")
-  end
+  }
   new_calls
 end
 
